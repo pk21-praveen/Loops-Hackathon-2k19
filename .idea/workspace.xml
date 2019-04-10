@@ -1,14 +1,609 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2e843282-aef6-4ce9-ad73-527f85e7e85f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Converter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Destinations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Weather.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/WeatherFinder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Colombo2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Culturalmap.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Family.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Familymap.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Hiking.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Honeymoonmap.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/ab.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/adventure-tours.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/adventure.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/Lankatilaka_buddha.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/adisham.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/amangalla.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/angammedilla.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/archaeological_museum.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/arisimalai.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/art_museum.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/bandagiriya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/beira_lake.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/bodhiya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/bogoda.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/brief_garden.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/buddhangala.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/bundala_park.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/castle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/casuarina_beach.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/caves.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/cinnamon_gardens.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/city_hall.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/dalada_maligawa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/dambatenne.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/dambulla_temple.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/deegavapi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/dhowa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/diyaluma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/dunhinda.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/dutch_church.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/dutch_fort.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/dutch_hospital.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/dutch_museum.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/eco_park.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/ella_rock.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/euphoria.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/flag_rock.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/folk_art_museum.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/fort_fredrick.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/galle_face.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/gallows.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/galpota.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/galviharaya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/galways.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/gregory_lake.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/hakgala.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/harbor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/historical_mansion.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/hoods_museum.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/horton_plains.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/hulan_nuge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/isurumuniya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/jaffna_fort.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/jungle_beach.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/kallady_beach.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/kande.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/kandy_lake.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/kaudulla.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/keerimalai.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/knuckles.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/koneswaram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/kottawa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/kudumbigala.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/kumana.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/lagoon_park.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/lahugala.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/lanka_patuna.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/lankathilaka.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/library.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/lighthouse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/lovers_leap.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/magul_maha_viharaya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/mahabodhi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/mahaoya_hw_springs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/main_gate.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/marble_beach.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/marine_museum.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/martello_tower.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/matale_kovil.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/memorial_hall.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/mihintale.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/minneriya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/nainatheevu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/nalanda_gedige.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/nallur_temple.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/nilaveli_beach.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/ohiya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/okanda.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/old_gate.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/palace.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/parey_dewa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/pasikuda.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/pedro_tea.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/peradeniya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/pigeon_island.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/piyangala_hermitage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/point_pedro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/puliyanthivu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/puppet_museum.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/rampart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/rawana_falls.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/rekawa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/rest_house.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/ritigala.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/riverston.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/ruins.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/ruwanwelisaya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/sangiliyan_thoppu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/seetha_eliya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/shiva_devale.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/sigiriya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/stmark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/taprobane.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/tea_museum.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/tissa_wewa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/udawalawe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/udawattekele.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/unnichchai_tank.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/utrecht_bastion.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/vatadage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/victoria_park.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/wasgamuwa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/wilpattu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/wolvendaal_church.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/yala.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/yatala.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/attractions/zoo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/banner3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/banner4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/banner5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/brand.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/culture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/footer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/honeyMoon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/jaffna1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/kandy1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/locations/ampara.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/locations/anuradhapura.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/locations/badulla.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/locations/batticaloa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/locations/colombo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/locations/galle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/locations/hambantota.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/locations/jaffna.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/locations/kalutara.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/locations/kandy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/locations/matale.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/locations/matara.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/locations/nuwara_eliya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/locations/polonnaruwa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/locations/trincomalee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/logocommon-big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/logocommon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/logohome.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/logohome_alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/mail-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/navi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/nuwaraeliya1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/phone-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/polonnaruwa1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/roadTrip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/surf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/travel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/trinco1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/visit-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/wild.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="31" column="62" lean-forward="true" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="85" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#367#413#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Form.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Destinations.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="174" column="63" selection-start-line="174" selection-start-column="63" selection-end-line="174" selection-end-column="63" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Weather.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-132" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/WeatherFinder.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1317">
+              <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="207" column="42" selection-start-line="207" selection-start-column="42" selection-end-line="207" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>width=20%&quot;</find>
+      <find>../src/</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>/src/</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/styles/style_home.css" />
+        <option value="$PROJECT_DIR$/src/styles/style_app.css" />
+        <option value="$PROJECT_DIR$/src/scripts/Slider_JS.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/js/slider.js" />
+        <option value="$PROJECT_DIR$/src/components/ControlledCarousel.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Converter.js" />
+        <option value="$PROJECT_DIR$/src/components/Test.js" />
+        <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/components/Colombo.js" />
+        <option value="$PROJECT_DIR$/src/components/WeatherFinder.js" />
+        <option value="$PROJECT_DIR$/src/components/Home.js" />
+        <option value="$PROJECT_DIR$/src/components/Destinations.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/Form.js" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="948" />
-    <option name="width" value="981" />
-    <option name="height" value="1032" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="loops-travelogue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loops-travelogue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loops-travelogue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loops-travelogue" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loops-travelogue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loops-travelogue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loops-travelogue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loops-travelogue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../BootstrapExamples" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="D:\Projects\WebStorm\React\loops-travelogue\node_modules\eslint" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\WebStorm\React\loops-travelogue\src\styles" />
+      <recent name="D:\Projects\WebStorm\React\loops-travelogue\src\components" />
+      <recent name="D:\Projects\WebStorm\React\loops-travelogue\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\WebStorm\React\loops-travelogue\src\images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e843282-aef6-4ce9-ad73-527f85e7e85f" name="Default Changelist" comment="" />
+      <created>1554870492604</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554870492604</updated>
+      <workItem from="1554870494731" duration="11727000" />
+      <workItem from="1554883289008" duration="12961000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="24688000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2749504" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32152975" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/manifest.json" />
+    <entry file="file://$PROJECT_DIR$/src/plugins/jssor.core.js" />
+    <entry file="file://$PROJECT_DIR$/src/scripts/Validate.js" />
+    <entry file="file://$PROJECT_DIR$/src/images/banner1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/Hiking.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/Slider_JS.js" />
+    <entry file="file://$PROJECT_DIR$/src/styles/style_app.css" />
+    <entry file="file://$PROJECT_DIR$/src/js/jssor.slider-27.5.0.min.js" />
+    <entry file="file://$PROJECT_DIR$/src/styles/style_home.css" />
+    <entry file="file://$PROJECT_DIR$/src/js/slider.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/ControlledCarousel.js" />
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Converter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Colombo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/style_common.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Weather.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="207" column="42" selection-start-line="207" selection-start-column="42" selection-end-line="207" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Destinations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="174" column="63" selection-start-line="174" selection-start-column="63" selection-end-line="174" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/WeatherFinder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1317">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="31" column="62" lean-forward="true" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#367#413#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
