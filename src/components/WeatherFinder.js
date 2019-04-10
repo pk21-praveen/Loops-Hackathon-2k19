@@ -62,7 +62,7 @@ class WeatherFinder extends Component {
             this.setState({
                 temperature: "Probably Hot",
                 city: "Hmmmmmmmmmmmm",
-                country: "Is this in Africa?",
+                country: "Is this in Srilanka?",
                 humidity: "Wait this isn't the same thing as temperature??",
                 description: "I don't know, maybe enter a value",
                 windSpeed: "WHOOSH",
@@ -73,29 +73,29 @@ class WeatherFinder extends Component {
 
     render() {
         return (
-            <div>
-                <div className="row">
-                    <div className="col-6">
 
-                        <div className="card mb-3" style={{maxWidth: '540px', marginTop: '50px'}}>
-                            <div className="row no-gutters">
-                                <div className="col-md-4">
-                                    <Form getWeather={this.getWeather}/>
-                                    <Weather
-                                        temperature={this.state.temperature}
-                                        city={this.state.city}
-                                        country={this.state.country}
-                                        humidity={this.state.humidity}
-                                        description={this.state.description}
-                                        windSpeed={this.state.windSpeed}
-                                        error={this.state.error}
-                                    />
-                                </div>
-                            </div>
-                        </div>
+            <div className="container" style={{paddingTop: '50px'}}>
+
+                <div className="card" style={{textAlign: 'center'}}>
+                    <h5 className="card-header">Real Time Weather Finder</h5>
+                    <div className="card-body">
+                        <h5 className="card-title"></h5>
+                        <Form getWeather={this.getWeather}/>
+                        <Weather
+                            temperature={this.state.temperature}
+                            city={this.state.city}
+                            country={this.state.country}
+                            humidity={this.state.humidity}
+                            description={this.state.description}
+                            windSpeed={this.state.windSpeed}
+                            error={this.state.error}
+                        />
                     </div>
                 </div>
+
             </div>
+
+
         );
     }
 }
