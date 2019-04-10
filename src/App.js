@@ -3,6 +3,9 @@ import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 
 import brand from './images/brand.jpg';
 import travel from './images/banner1.jpg';
+import phone from '../src/images/phone-icon.png'
+import mail from '../src/images/mail-icon.png'
+import visit from '../src/images/visit-icon.png'
 
 //importing the bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -12,10 +15,14 @@ import Converter from './components/Converter'
 import Destinations from './components/Destinations'
 import WeatherFinder from './components/WeatherFinder'
 
+import Ampara from './components/Ampara'
+import Colombo from './components/Colombo'
+
 class App extends Component {
 
     render() {
         return (
+
             <Router>
                 <div className="container">
 
@@ -68,6 +75,8 @@ class App extends Component {
                     <Route path="/Converter" component={Converter}/>
                     <Route path="/Destinations" component={Destinations} />
                     <Route path="/WeatherFinder" component={WeatherFinder} />
+                    <Route path="/Ampara" component={Ampara} />
+                    <Route path="/Colombo" component={Colombo} />
 
 
                     <div className="col-12">
